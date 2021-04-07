@@ -18,9 +18,9 @@ toeflScore = st.slider("TOEFL score", 90, 120, 100)
 cgpa = st.slider("CGPA", 6.0, 10.0, 8.0,0.01)
 
 univRating = st.slider("University rating", 1, 5, 3)
-sopValue = st.slider("SOP value", 1, 5, 3)
-lorValue = st.slider("LOR value", 1, 5, 3)
-researchValue = st.slider("Research value", 0, 1, 1)
+sopValue = 3
+lorValue = 3
+researchValue = 1
 
 
 print("GRE=",greScore,";TOEFL=",toeflScore,";CGPA=",cgpa,";Rating=",univRating,";SOP=",sopValue,";LOR=",lorValue)
